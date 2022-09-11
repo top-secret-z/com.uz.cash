@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/menuItem.xsd">
+	<import>
+		<item identifier="com.uz.cash.MyAccount">
+			<menu>com.woltlab.wcf.MainMenu</menu>
+			<title language="de">Community-Kasse</title>
+			<title language="en">Community Cash</title>
+			<page>com.uz.cash.MyAccount</page>
+		</item>
+		
+		<item identifier="com.uz.cash.MyClaimList">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Meine Forderungen</title>
+			<title language="en">My Claims</title>
+			<page>com.uz.cash.MyClaimList</page>
+		</item>
+		
+		<item identifier="com.uz.cash.MyCreditList">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Meine Gutschriften</title>
+			<title language="en">My Credits</title>
+			<page>com.uz.cash.MyCreditList</page>
+		</item>
+		
+		<item identifier="com.uz.cash.Overview">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Übersicht</title>
+			<title language="en">Overview</title>
+			<page>com.uz.cash.Overview</page>
+		</item>
+		
+		<item identifier="com.uz.cash.PostingList">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Buchungen verwalten</title>
+			<title language="en">Manage Postings</title>
+			<page>com.uz.cash.PostingList</page>
+		</item>
+		
+		<item identifier="com.uz.cash.ClaimList">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Forderungen verwalten</title>
+			<title language="en">Manage Claims</title>
+			<page>com.uz.cash.ClaimList</page>
+		</item>
+		<item identifier="com.uz.cash.UserClaimList">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Benutzer-Forderungen</title>
+			<title language="en">Member Claims</title>
+			<page>com.uz.cash.UserClaimList</page>
+		</item>
+		
+		<item identifier="com.uz.cash.CreditList">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Gutschriften verwalten</title>
+			<title language="en">Manage Credits</title>
+			<page>com.uz.cash.CreditList</page>
+		</item>
+		
+		<item identifier="com.uz.cash.UserCreditList">
+			<parent>com.uz.cash.MyAccount</parent>
+			<title language="de">Benutzer-Gutschriften</title>
+			<title language="en">Member Credits</title>
+			<page>com.uz.cash.UserCreditList</page>
+		</item>
+	</import>
+</data>

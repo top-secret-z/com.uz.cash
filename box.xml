@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/box.xsd">
+	<import>
+		<box identifier="com.uz.cash.Balance">
+			<name language="de">Kassenstand</name>
+			<name language="en">Cash Position</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.cash.Balance</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			
+			<content language="de">
+				<title>Kassenstand</title>
+			</content>
+			<content language="en">
+				<title>Cash Position</title>
+			</content>
+		</box>
+		
+		<box identifier="com.uz.cash.Claims">
+			<name language="de">Offene Forderungen</name>
+			<name language="en">Open Claims</name>
+			<boxType>system</boxType>
+			<objectType>com.uz.cash.Claims</objectType>
+			<position>sidebarRight</position>
+			<showHeader>1</showHeader>
+			<visibleEverywhere>0</visibleEverywhere>
+			
+			<content language="de">
+				<title>Offene Forderungen</title>
+			</content>
+			<content language="en">
+				<title>Open Claims</title>
+			</content>
+		</box>
+	</import>
+</data>

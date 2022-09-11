@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/userNotificationEvent.xsd">
+	<import>
+		<event>
+			<name>newClaim</name>
+			<objecttype>com.uz.cash.claim.notification</objecttype>
+			<classname>cash\system\user\notification\event\ClaimUserNotificationEvent</classname>
+			<preset>1</preset>
+			<options>module_cash</options>
+		</event>
+		
+		<event>
+			<name>newCredit</name>
+			<objecttype>com.uz.cash.credit.notification</objecttype>
+			<classname>cash\system\user\notification\event\CreditUserNotificationEvent</classname>
+			<preset>1</preset>
+			<options>module_cash</options>
+		</event>
+	</import>
+</data>

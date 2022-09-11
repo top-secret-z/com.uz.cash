@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/page.xsd">
+	<import>
+		<page identifier="com.uz.cash.MyAccount">
+			<pageType>system</pageType>
+			<controller>cash\page\MyAccountPage</controller>
+			<handler>cash\system\page\handler\MyAccountPageHandler</handler>
+			<options>module_cash</options>
+			<name language="de">Community-Kasse</name>
+			<name language="en">Community Cash</name>
+			
+			<content language="en">
+				<title>Community Cash</title>
+			</content>
+			<content language="de">
+				<title>Community Kasse</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.cash.MyClaimList">
+			<pageType>system</pageType>
+			<controller>cash\page\MyClaimListPage</controller>
+			<handler>cash\system\page\handler\MyClaimListPageHandler</handler>
+			<name language="de">Meine Forderungen</name>
+			<name language="en">My Claims</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.MyCreditList">
+			<pageType>system</pageType>
+			<controller>cash\page\MyCreditListPage</controller>
+			<handler>cash\system\page\handler\MyCreditListPageHandler</handler>
+			<name language="de">Meine Gutschriften</name>
+			<name language="en">My Credits</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<options>module_cash</options>
+		</page>
+		
+		<page identifier="com.uz.cash.Overview">
+			<pageType>system</pageType>
+			<controller>cash\page\OverviewPage</controller>
+			<handler>cash\system\page\handler\OverviewPageHandler</handler>
+			<options>module_cash</options>
+			<name language="de">Übersicht</name>
+			<name language="en">Overview</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.Export">
+			<pageType>system</pageType>
+			<controller>cash\form\CashExportForm</controller>
+			<name language="de">Export</name>
+			<name language="en">Export</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			<options>module_cash</options>
+		</page>
+		
+		<page identifier="com.uz.cash.PostingList">
+			<pageType>system</pageType>
+			<controller>cash\page\PostingListPage</controller>
+			<handler>cash\system\page\handler\PostingListPageHandler</handler>
+			<name language="de">Buchungen verwalten</name>
+			<name language="en">Manage Postings</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.PostingAdd">
+			<pageType>system</pageType>
+			<controller>cash\form\PostingAddForm</controller>
+			<name language="de">Buchung hinzufügen</name>
+			<name language="en">Add Posting</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			
+			<content language="en">
+				<title>Add Posting</title>
+			</content>
+			<content language="de">
+				<title>Forderung hinzufügen</title>
+			</content>
+		</page>
+		<page identifier="com.uz.cash.PostingEdit">
+			<pageType>system</pageType>
+			<controller>cash\form\PostingEditForm</controller>
+			<name language="de">Buchung bearbeiten</name>
+			<name language="en">Edit Posting</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<requireObjectID>1</requireObjectID>
+			<permissions>user.cash.canManage</permissions>
+			
+			<content language="en">
+				<title>Edit Posting</title>
+			</content>
+			<content language="de">
+				<title>Buchung bearbeiten</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.cash.Posting">
+			<pageType>system</pageType>
+			<controller>cash\page\PostingPage</controller>
+			<name language="de">Buchung</name>
+			<name language="en">Posting</name>
+			<parent>com.uz.cash.Overview</parent>
+			<options>module_cash</options>
+		</page>
+		
+		<page identifier="com.uz.cash.ClaimList">
+			<pageType>system</pageType>
+			<controller>cash\page\ClaimListPage</controller>
+			<handler>cash\system\page\handler\ClaimListPageHandler</handler>
+			<name language="de">Forderungen verwalten</name>
+			<name language="en">Manage Claims</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.UserClaimList">
+			<pageType>system</pageType>
+			<controller>cash\page\UserClaimListPage</controller>
+			<handler>cash\system\page\handler\UserClaimListPageHandler</handler>
+			<name language="de">Benutzerforderungen</name>
+			<name language="en">Member Claims</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.Claim">
+			<pageType>system</pageType>
+			<controller>cash\page\ClaimPage</controller>
+			<name language="de">Forderung</name>
+			<name language="en">Claim</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.ClaimAdd">
+			<pageType>system</pageType>
+			<controller>cash\form\ClaimAddForm</controller>
+			<name language="de">Forderung hinzufügen</name>
+			<name language="en">Add Claim</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			
+			<content language="en">
+				<title>Add Claim</title>
+			</content>
+			<content language="de">
+				<title>Forderung hinzufügen</title>
+			</content>
+		</page>
+		<page identifier="com.uz.cash.ClaimEdit">
+			<pageType>system</pageType>
+			<controller>cash\form\ClaimEditForm</controller>
+			<name language="de">Forderung bearbeiten</name>
+			<name language="en">Edit Claim</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<requireObjectID>1</requireObjectID>
+			<permissions>user.cash.canManage</permissions>
+			
+			<content language="en">
+				<title>Edit Claim</title>
+			</content>
+			<content language="de">
+				<title>Forderung bearbeiten</title>
+			</content>
+		</page>
+		
+		<page identifier="com.uz.cash.CreditList">
+			<pageType>system</pageType>
+			<controller>cash\page\CreditListPage</controller>
+			<handler>cash\system\page\handler\CreditListPageHandler</handler>
+			<name language="de">Gutschriften verwalten</name>
+			<name language="en">Manage Credits</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.UserCreditList">
+			<pageType>system</pageType>
+			<controller>cash\page\UserCreditListPage</controller>
+			<handler>cash\system\page\handler\UserCreditListPageHandler</handler>
+			<name language="de">Benutzergutschriften</name>
+			<name language="en">Member Credits</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.Credit">
+			<pageType>system</pageType>
+			<controller>cash\page\CreditPage</controller>
+			<name language="de">Gutschrift</name>
+			<name language="en">Credit</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<options>module_cash</options>
+		</page>
+		<page identifier="com.uz.cash.CreditAdd">
+			<pageType>system</pageType>
+			<controller>cash\form\CreditAddForm</controller>
+			<name language="de">Gutschrift hinzufügen</name>
+			<name language="en">Add Credit</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<permissions>user.cash.canManage</permissions>
+			
+			<content language="en">
+				<title>Add Credit</title>
+			</content>
+			<content language="de">
+				<title>Gutschrift hinzufügen</title>
+			</content>
+		</page>
+		<page identifier="com.uz.cash.CreditEdit">
+			<pageType>system</pageType>
+			<controller>cash\form\CreditEditForm</controller>
+			<name language="de">Gutschrift bearbeiten</name>
+			<name language="en">Edit Credit</name>
+			<parent>com.uz.cash.MyAccount</parent>
+			<requireObjectID>1</requireObjectID>
+			<permissions>user.cash.canManage</permissions>
+			
+			<content language="en">
+				<title>Edit Credit</title>
+			</content>
+			<content language="de">
+				<title>Gutschrift bearbeiten</title>
+			</content>
+		</page>
+	</import>
+</data>
