@@ -1,94 +1,94 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/option.xsd">
-	<import>
-		<categories>
-			<category name="cash">
-			</category>
-			
-			<category name="cash.general">
-				<parent>cash</parent>
-			</category>
-			
-			<category name="cash.payment">
-				<parent>cash</parent>
-			</category>
-		</categories>
-		
-		<options>
-			<option name="module_cash">
-				<categoryname>module.community</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			
-			<option name="cash_install_date">
-				<categoryname>cash.general</categoryname>
-				<optiontype>integer</optiontype>
-				<hidden>1</hidden>
-			</option>
-			<option name="cash_items_per_page">
-				<categoryname>cash.general</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>25</defaultvalue>
-			</option>
-			
-			<option name="cash_claim_user_deleted">
-				<categoryname>cash.general</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>1</defaultvalue>
-			</option>
-			
-			<option name="cash_claim_user_inactive">
-				<categoryname>cash.general</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<enableoptions>cash_claim_user_inactive_days</enableoptions>
-			</option>
-			<option name="cash_claim_user_inactive_days">
-				<categoryname>cash.general</categoryname>
-				<optiontype>integer</optiontype>
-				<defaultvalue>100</defaultvalue>
-				<minvalue>30</minvalue>
-				<suffix>days</suffix>
-			</option>
-			
-			<option name="cash_currencies">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>textarea</optiontype>
-				<defaultvalue>EUR</defaultvalue>
-				<validationpattern>(^$|^[A-Z]{3}(\r?\n[A-Z]{3})*$)</validationpattern>
-			</option>
-			
-			<option name="cash_transfer_show_bank">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>boolean</optiontype>
-				<defaultvalue>0</defaultvalue>
-				<enableoptions>cash_transfer_owner,cash_transfer_bank,cash_transfer_code,cash_transfer_account,cash_transfer_iban,cash_transfer_bic</enableoptions>
-			</option>
-			<option name="cash_transfer_owner">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>text</optiontype>
-			</option>
-			<option name="cash_transfer_bank">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>text</optiontype>
-			</option>
-			<option name="cash_transfer_code">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>text</optiontype>
-			</option>
-			<option name="cash_transfer_account">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>text</optiontype>
-			</option>
-			<option name="cash_transfer_iban">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>text</optiontype>
-			</option>
-			<option name="cash_transfer_bic">
-				<categoryname>cash.payment</categoryname>
-				<optiontype>text</optiontype>
-			</option>
-		</options>
-	</import>
+    <import>
+        <categories>
+            <category name="cash">
+            </category>
+
+            <category name="cash.general">
+                <parent>cash</parent>
+            </category>
+
+            <category name="cash.payment">
+                <parent>cash</parent>
+            </category>
+        </categories>
+
+        <options>
+            <option name="module_cash">
+                <categoryname>module.community</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+
+            <option name="cash_install_date">
+                <categoryname>cash.general</categoryname>
+                <optiontype>integer</optiontype>
+                <hidden>1</hidden>
+            </option>
+            <option name="cash_items_per_page">
+                <categoryname>cash.general</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>25</defaultvalue>
+            </option>
+
+            <option name="cash_claim_user_deleted">
+                <categoryname>cash.general</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>1</defaultvalue>
+            </option>
+
+            <option name="cash_claim_user_inactive">
+                <categoryname>cash.general</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <enableoptions>cash_claim_user_inactive_days</enableoptions>
+            </option>
+            <option name="cash_claim_user_inactive_days">
+                <categoryname>cash.general</categoryname>
+                <optiontype>integer</optiontype>
+                <defaultvalue>100</defaultvalue>
+                <minvalue>30</minvalue>
+                <suffix>days</suffix>
+            </option>
+
+            <option name="cash_currencies">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>textarea</optiontype>
+                <defaultvalue>EUR</defaultvalue>
+                <validationpattern>(^$|^[A-Z]{3}(\r?\n[A-Z]{3})*$)</validationpattern>
+            </option>
+
+            <option name="cash_transfer_show_bank">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>boolean</optiontype>
+                <defaultvalue>0</defaultvalue>
+                <enableoptions>cash_transfer_owner,cash_transfer_bank,cash_transfer_code,cash_transfer_account,cash_transfer_iban,cash_transfer_bic</enableoptions>
+            </option>
+            <option name="cash_transfer_owner">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>text</optiontype>
+            </option>
+            <option name="cash_transfer_bank">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>text</optiontype>
+            </option>
+            <option name="cash_transfer_code">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>text</optiontype>
+            </option>
+            <option name="cash_transfer_account">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>text</optiontype>
+            </option>
+            <option name="cash_transfer_iban">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>text</optiontype>
+            </option>
+            <option name="cash_transfer_bic">
+                <categoryname>cash.payment</categoryname>
+                <optiontype>text</optiontype>
+            </option>
+        </options>
+    </import>
 </data>
