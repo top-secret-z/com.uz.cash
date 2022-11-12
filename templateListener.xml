@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/templateListener.xsd">
-	<import>
-		<templatelistener name="copyright">
-			<environment>user</environment>
-			<templatename>pageFooterCopyright</templatename>
-			<eventname>copyright</eventname>
-			<templatecode><![CDATA[{include file='__copyright' application='cash'}]]></templatecode>
-		</templatelistener>
-	</import>
+    <import>
+        <templatelistener name="copyright">
+            <environment>user</environment>
+            <templatename>pageFooterCopyright</templatename>
+            <eventname>copyright</eventname>
+            <templatecode><![CDATA[{include file='__copyright' application='cash'}]]></templatecode>
+        </templatelistener>
+    </import>
 </data>

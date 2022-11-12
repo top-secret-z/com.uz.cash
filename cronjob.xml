@@ -1,74 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/cronjob.xsd">
-	<import>
-		<cronjob name="com.uz.cash.userClaims.create">
-			<classname>cash\system\cronjob\UserClaimsCronjob</classname>
-			<description>Creates Community Cash claims</description>
-			<description language="de">Erstellt Community-Kasse Forderungen</description>
-			<startminute>*/15</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-		
-		<cronjob name="com.uz.cash.userClaims.notify">
-			<classname>cash\system\cronjob\UserClaimsNotifyCronjob</classname>
-			<description>Sends Community Cash claims</description>
-			<description language="de">Sendet Community-Kasse Forderungen</description>
-			<startminute>*/15</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-		
-		<cronjob name="com.uz.cash.userCredits.create">
-			<classname>cash\system\cronjob\UserCreditsCronjob</classname>
-			<description>Creates Community Cash credits</description>
-			<description language="de">Erstellt Community-Kasse Gutschriften</description>
-			<startminute>*/15</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-		
-		<cronjob name="com.uz.cash.userCredits.notify">
-			<classname>cash\system\cronjob\UserCreditsNotifyCronjob</classname>
-			<description>Sends Community Cash credits</description>
-			<description language="de">Sendet Community-Kasse Gutschriften</description>
-			<startminute>*/15</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-		
-		<cronjob name="com.uz.cash.cleanup">
-			<classname>cash\system\cronjob\HourlyCleanupCronjob</classname>
-			<description>Community Cash hourly Cleanup</description>
-			<description language="de">Community-Kasse stündliche Aufräumarbeiten</description>
-			<startminute>15</startminute>
-			<starthour>*</starthour>
-			<startdom>*</startdom>
-			<startmonth>*</startmonth>
-			<startdow>*</startdow>
-			<active>1</active>
-			<canbeedited>1</canbeedited>
-			<canbedisabled>1</canbedisabled>
-		</cronjob>
-	</import>
+    <import>
+        <cronjob name="com.uz.cash.userClaims.create">
+            <classname>cash\system\cronjob\UserClaimsCronjob</classname>
+            <description>Creates Community Cash claims</description>
+            <description language="de">Erstellt Community-Kasse Forderungen</description>
+            <startminute>*/15</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+
+        <cronjob name="com.uz.cash.userClaims.notify">
+            <classname>cash\system\cronjob\UserClaimsNotifyCronjob</classname>
+            <description>Sends Community Cash claims</description>
+            <description language="de">Sendet Community-Kasse Forderungen</description>
+            <startminute>*/15</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+
+        <cronjob name="com.uz.cash.userCredits.create">
+            <classname>cash\system\cronjob\UserCreditsCronjob</classname>
+            <description>Creates Community Cash credits</description>
+            <description language="de">Erstellt Community-Kasse Gutschriften</description>
+            <startminute>*/15</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+
+        <cronjob name="com.uz.cash.userCredits.notify">
+            <classname>cash\system\cronjob\UserCreditsNotifyCronjob</classname>
+            <description>Sends Community Cash credits</description>
+            <description language="de">Sendet Community-Kasse Gutschriften</description>
+            <startminute>*/15</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+
+        <cronjob name="com.uz.cash.cleanup">
+            <classname>cash\system\cronjob\HourlyCleanupCronjob</classname>
+            <description>Community Cash hourly Cleanup</description>
+            <description language="de">Community-Kasse stündliche Aufräumarbeiten</description>
+            <startminute>15</startminute>
+            <starthour>*</starthour>
+            <startdom>*</startdom>
+            <startmonth>*</startmonth>
+            <startdow>*</startdow>
+            <active>1</active>
+            <canbeedited>1</canbeedited>
+            <canbedisabled>1</canbedisabled>
+        </cronjob>
+    </import>
 </data>

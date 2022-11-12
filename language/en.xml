@@ -1,338 +1,338 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <language xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/language.xsd" languagecode="de">
 <import>
-	<category name="cash.acp">
-		<item name="cash.acp.transaction.log"><![CDATA[Transaction]]></item>
-		<item name="cash.acp.transaction.log.claim"><![CDATA[Claim]]></item>
-		<item name="cash.acp.transaction.log.list"><![CDATA[Transaction]]></item>
-		<item name="cash.acp.transaction.log.message"><![CDATA[Action]]></item>
-		<item name="cash.acp.transaction.log.paymentMethod"><![CDATA[Payment Method]]></item>
-		<item name="cash.acp.transaction.log.time"><![CDATA[Date]]></item>
-		<item name="cash.acp.transaction.log.transactionDetails"><![CDATA[Details]]></item>
-		<item name="cash.acp.transaction.log.transactionID"><![CDATA[Transaction ID]]></item>
-	</category>
-	
-	<category name="wcf.acp.box">
-		<item name="wcf.acp.box.boxController.com.uz.cash.Balance"><![CDATA[Balance Community Cash]]></item>
-		<item name="wcf.acp.box.boxController.com.uz.cash.Claims"><![CDATA[Open claims Community Cash]]></item>
-	</category>
-	
-	<category name="wcf.acp.group">
-		<item name="wcf.acp.group.option.category.user.cash"><![CDATA[Community Cash]]></item>
-		<item name="wcf.acp.group.option.category.admin.cash"><![CDATA[Community Cash]]></item>
-		<item name="wcf.acp.group.option.admin.cash.canManage"><![CDATA[Can manage Community Cash]]></item>
-		<item name="wcf.acp.group.option.user.cash.canManage"><![CDATA[Can manage Community Cash (frontend)]]></item>
-		<item name="wcf.acp.group.option.user.cash.canSeeBalance"><![CDATA[Can see Community Cash balance]]></item>
-		<item name="wcf.acp.group.option.user.cash.canSeeStatements"><![CDATA[Can see Community Cash details]]></item>
-		<item name="wcf.acp.group.option.user.cash.isPayer"><![CDATA[Must pay into Community Cash]]></item>
-	</category>
-	
-	<category name="cash.acp.menu">
-		<item name="cash.acp.menu.link.cash"><![CDATA[Community Cash]]></item>
-		<item name="cash.acp.menu.link.cash.category.add"><![CDATA[Add Category]]></item>
-		<item name="cash.acp.menu.link.cash.category.list"><![CDATA[Categories]]></item>
-		<item name="cash.acp.menu.link.cash.transaction.list"><![CDATA[Transactions]]></item>
-	</category>
-	
-	<category name="wcf.user.notification">
-		<item name="wcf.user.notification.com.uz.cash"><![CDATA[Community Cash]]></item>
-		<item name="wcf.user.notification.com.uz.cash.claim.notification.newClaim"><![CDATA[New Claim]]></item>
-		<item name="wcf.user.notification.com.uz.cash.credit.notification.newCredit"><![CDATA[New Credit]]></item>
-	</category>
-	
-	<category name="wcf.acp.option">
-		<item name="wcf.acp.option.module_cash"><![CDATA[Community Cash]]></item>
-		<item name="wcf.acp.option.category.cash"><![CDATA[Community Cash]]></item>
-		<item name="wcf.acp.option.category.cash.general"><![CDATA[General]]></item>
-		<item name="wcf.acp.option.category.cash.payment"><![CDATA[Payments]]></item>
-		<item name="wcf.acp.option.cash_claim_user_deleted"><![CDATA[Delete open claims of deleted members]]></item>
-		<item name="wcf.acp.option.cash_claim_user_deleted.description"><![CDATA[Activates automatic deletion of open claims of members who were deleted after receipt of the claim.]]></item>
-		<item name="wcf.acp.option.cash_claim_user_inactive"><![CDATA[Delete open claims of inactive members]]></item>
-		<item name="wcf.acp.option.cash_claim_user_inactive.description"><![CDATA[Activates automatic deletion of open claims of members who are inactive the entered number of days after receipt of the claim.]]></item>
-		<item name="wcf.acp.option.cash_claim_user_inactive_days"><![CDATA[Duration of inactivity]]></item>
-		<item name="wcf.acp.option.cash_currencies"><![CDATA[Available Currencies]]></item>
-		<item name="wcf.acp.option.cash_currencies.description"><![CDATA[You may enter more than one currency; one per line. Use the international currency ISO abbreviation (3 characters).]]></item>
-		<item name="wcf.acp.option.cash_items_per_page"><![CDATA[Entries per Page]]></item>
-		<item name="wcf.acp.option.cash_transfer_account"><![CDATA[Account Number]]></item>
-		<item name="wcf.acp.option.cash_transfer_bank"><![CDATA[Bank Name]]></item>
-		<item name="wcf.acp.option.cash_transfer_bic"><![CDATA[BIC/SWFT]]></item>
-		<item name="wcf.acp.option.cash_transfer_code"><![CDATA[Bank Code]]></item>
-		<item name="wcf.acp.option.cash_transfer_iban"><![CDATA[IBAN]]></item>
-		<item name="wcf.acp.option.cash_transfer_owner"><![CDATA[Account Owner]]></item>
-		<item name="wcf.acp.option.cash_transfer_show_bank"><![CDATA[Sho account data]]></item>
-	</category>
-	
-	<category name="wcf.acp.rebuildData">
-		<item name="wcf.acp.rebuildData.com.uz.cash.all"><![CDATA[Rebuild Community Cash]]></item>
-		<item name="wcf.acp.rebuildData.com.uz.cash.all.description"><![CDATA[Rebuilds balances of the users.]]></item>
-	</category>
-	
-	<category name="cash.bank">
-		<item name="cash.bank.account"><![CDATA[Account Number]]></item>
-		<item name="cash.bank.bank"><![CDATA[Bank Name]]></item>
-		<item name="cash.bank.bic"><![CDATA[BIC/SWFT]]></item>
-		<item name="cash.bank.code"><![CDATA[Bank Code]]></item>
-		<item name="cash.bank.iban"><![CDATA[IBAN]]></item>
-		<item name="cash.bank.owner"><![CDATA[Account Owner]]></item>
-	</category>
-	
-	<category name="cash.cash">
-		<item name="cash.cash.amount"><![CDATA[Amount]]></item>
-		<item name="cash.cash.balance.none"><![CDATA[No account movements]]></item>
-		<item name="cash.cash.box.cash"><![CDATA[Community Cash]]></item>
-		<item name="cash.cash.box.cash.balance"><![CDATA[Balance]]></item>
-		<item name="cash.cash.box.cash.claims"><![CDATA[Open Claims]]></item>
-		<item name="cash.cash.comment"><![CDATA[Comment]]></item>
-		<item name="cash.cash.category"><![CDATA[Category]]></item>
-		<item name="cash.cash.currency"><![CDATA[Currency]]></item>
-		<item name="cash.cash.date"><![CDATA[Date]]></item>
-		<item name="cash.cash.export"><![CDATA[Export]]></item>
-		<item name="cash.cash.filter.comment"><![CDATA[Comment]]></item>
-		<item name="cash.cash.filter.currency"><![CDATA[all currencies]]></item>
-		<item name="cash.cash.filter.type"><![CDATA[all types]]></item>
-		<item name="cash.cash.filter.username"><![CDATA[username]]></item>
-		<item name="cash.cash.hidden"><![CDATA[***]]></item>
-		<item name="cash.cash.overview"><![CDATA[Overview]]></item>
-		<item name="cash.cash.time"><![CDATA[Time]]></item>
-		<item name="cash.cash.type"><![CDATA[Type]]></item>
-		<item name="cash.cash.type.claim"><![CDATA[claim]]></item>
-		<item name="cash.cash.type.claimBalanced"><![CDATA[claim balanced with credit]]></item>
-		<item name="cash.cash.type.claimChanged"><![CDATA[claim changed]]></item>
-		<item name="cash.cash.type.claimDeleted"><![CDATA[claim deleted]]></item>
-		<item name="cash.cash.type.claimSent"><![CDATA[new claim]]></item>
-		<item name="cash.cash.type.claimPaid"><![CDATA[claim paid]]></item>
-		<item name="cash.cash.type.claimReversed"><![CDATA[claim sent]]></item>
-		<item name="cash.cash.type.claimRepaid"><![CDATA[claim re-paid]]></item>
-		<item name="cash.cash.type.credit"><![CDATA[Credit]]></item>
-		<item name="cash.cash.type.creditChanged"><![CDATA[credit changed]]></item>
-		<item name="cash.cash.type.creditPaid"><![CDATA[credit paid]]></item>
-		<item name="cash.cash.type.creditReversed"><![CDATA[credit reversed]]></item>
-		<item name="cash.cash.type.creditSent"><![CDATA[new credit]]></item>
-		<item name="cash.cash.type.posting"><![CDATA[Statement]]></item>
-		<item name="cash.cash.user.balance"><![CDATA[My Balance]]></item>
-		<item name="cash.cash.user.balance.none"><![CDATA[No account movements]]></item>
-		<item name="cash.cash.user.myAccount"><![CDATA[My Account]]></item>
-		<item name="cash.cash.username"><![CDATA[User]]></item>
-	</category>
-	
-	<category name="cash.claim">
-		<item name="cash.claim.add"><![CDATA[Add Claim]]></item>
-		<item name="cash.claim.add.amount"><![CDATA[Amount]]></item>
-		<item name="cash.claim.add.amount.error.invalid"><![CDATA[The amount must be greater than 0.00.]]></item>
-		<item name="cash.claim.add.category.warning"><![CDATA[There is no active category.]]></item>
-		<item name="cash.claim.add.categoryID"><![CDATA[Category]]></item>
-		<item name="cash.claim.add.categoryID.error.invalid"><![CDATA[Invalid category.]]></item>
-		<item name="cash.claim.add.currency"><![CDATA[Currency]]></item>
-		<item name="cash.claim.add.currency.error.invalid"><![CDATA[Invalid currency.]]></item>
-		<item name="cash.claim.add.currency.warning"><![CDATA[There is no currency available.]]></item>
-		<item name="cash.claim.add.excludedPaymentMethods"><![CDATA[Excluded Payment Methods]]></item>
-		<item name="cash.claim.add.excludedPaymentMethods.description"><![CDATA[Select the payment methods which are not to be used for this claim.]]></item>
-		<item name="cash.claim.add.execution"><![CDATA[Execution]]></item>
-		<item name="cash.claim.add.execution.time"><![CDATA[Time]]></item>
-		<item name="cash.claim.add.execution.time.error.invalid"><![CDATA[Invalid time.]]></item>
-		<item name="cash.claim.add.execution.timezone"><![CDATA[Time Zone]]></item>
-		<item name="cash.claim.add.executions"><![CDATA[Frequency]]></item>
-		<item name="cash.claim.add.frequency"><![CDATA[Repetition]]></item>
-		<item name="cash.claim.add.frequency.once"><![CDATA[once]]></item>
-		<item name="cash.claim.add.frequency.week"><![CDATA[weekly]]></item>
-		<item name="cash.claim.add.frequency.twoweek"><![CDATA[every two weeks]]></item>
-		<item name="cash.claim.add.frequency.month"><![CDATA[monthly]]></item>
-		<item name="cash.claim.add.frequency.twomonth"><![CDATA[every two months]]></item>
-		<item name="cash.claim.add.frequency.threemonth"><![CDATA[every three months]]></item>
-		<item name="cash.claim.add.frequency.sixmonth"><![CDATA[half-yearly]]></item>
-		<item name="cash.claim.add.frequency.year"><![CDATA[yearly]]></item>
-		<item name="cash.claim.add.general"><![CDATA[General]]></item>
-		<item name="cash.claim.add.message"><![CDATA[Comment]]></item>
-		<item name="cash.claim.add.subject"><![CDATA[Title]]></item>
-		<item name="cash.claim.add.usernames"><![CDATA[Usernames]]></item>
-		<item name="cash.claim.add.usernames.description"><![CDATA[The claim will be made to the given users if all of the conditions below are fulfilled. Multiple users may be entered, but must be separated by comma.]]></item>
-		<item name="cash.claim.add.usernames.error.notFound"><![CDATA[The userame {$errorData[username]} could not be found.]]></item>
-		<item name="cash.claim.add.users"><![CDATA[Member]]></item>
-		<item name="cash.claim.claim"><![CDATA[Claim]]></item>
-		<item name="cash.claim.claims"><![CDATA[Claims]]></item>
-		<item name="cash.claim.condition"><![CDATA[Community Cash]]></item>
-		<item name="cash.claim.condition.hasClaims"><![CDATA[Has open claims]]></item>
-		<item name="cash.claim.condition.hasNotClaims"><![CDATA[Has no open claims]]></item>
-		<item name="cash.claim.condition.hasClaims.error.conflict"><![CDATA[You cannot simultaneously select “Has open claims” and “Has no open claims”.]]></item>
-		<item name="cash.claim.edit"><![CDATA[Edit Claim]]></item>
-		<item name="cash.claim.edit.warning"><![CDATA[Changes will not effect already sent user claims. Imprudent changes may have negative side effects and are not recommended.]]></item>
-		<item name="cash.claim.filter.categoryID"><![CDATA[all categories]]></item>
-		<item name="cash.claim.filter.currency"><![CDATA[all currencies]]></item>
-		<item name="cash.claim.filter.frequency"><![CDATA[all repetitions]]></item>
-		<item name="cash.claim.list"><![CDATA[Claims]]></item>
-		<item name="cash.claim.hasOpen"><![CDATA[You have open <a href="{link application='cash' controller='MyClaimList'}{/link}">claims</a>.]]></item>
-		<item name="cash.claim.myClaims"><![CDATA[My Claims]]></item>
-		<item name="cash.claim.none"><![CDATA[No claims]]></item>
-		<item name="cash.claim.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}System{/if} sent the new Community Cash claim <a href="{link application='cash' controller='Claim' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getTitle()}</a>:</p>]]></item>
-		<item name="cash.claim.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}System{/if} sent the new Community Cash claim „{@$event->getUserNotificationObject()->getTitle()}“ [URL:{link application='cash' controller='Claim' object=$event->getUserNotificationObject() isEmail=true}{/link}]:]]></item>
-		<item name="cash.claim.notification.message"><![CDATA[{@$author->getAnchorTag()} sent the new Community Cash claim <a href="{link application='cash' controller='CashClaim' object=$claim}{/link}">{$claim->getTitle()}</a>.]]></item>
-		<item name="cash.claim.notification.title"><![CDATA[New claim]]></item>
-		<item name="cash.claim.open"><![CDATA[Open claim]]></item>
-		<item name="cash.claim.user"><![CDATA[User claims]]></item>
-		<item name="cash.claim.user.amount"><![CDATA[Amount]]></item>
-		<item name="cash.claim.user.amount.error"><![CDATA[Invalid amount.]]></item>
-		<item name="cash.claim.user.balance"><![CDATA[Balance claim with credit]]></item>
-		<item name="cash.claim.user.balance.confirm"><![CDATA[Do you really want to balance this claim with your credit?]]></item>
-		<item name="cash.claim.user.currency"><![CDATA[Currency]]></item>
-		<item name="cash.claim.user.data"><![CDATA[Data]]></item>
-		<item name="cash.claim.user.delete"><![CDATA[Delete Claim]]></item>
-		<item name="cash.claim.user.edit"><![CDATA[Edit Claim]]></item>
-		<item name="cash.claim.user.filter.currency"><![CDATA[all currencies]]></item>
-		<item name="cash.claim.user.filter.status"><![CDATA[all status]]></item>
-		<item name="cash.claim.user.filter.transfer"><![CDATA[all transfer status]]></item>
-		<item name="cash.claim.user.pay"><![CDATA[Pay claim]]></item>
-		<item name="cash.claim.user.pay.confirm"><![CDATA[Do you really want to mark this claim as “Paid“?]]></item>
-		<item name="cash.claim.user.pay.mark"><![CDATA[Mark as “Paid”]]></item>
-		<item name="cash.claim.user.pay.method"><![CDATA[Payment Methods]]></item>
-		<item name="cash.claim.user.pay.method.none"><![CDATA[No payment method was found which supports the choosen currency. Please, contact the administrator.]]></item>
-		<item name="cash.claim.user.pay.method.payPal"><![CDATA[Pay with PayPal]]></item>
-		<item name="cash.claim.user.pay.returnMessage"><![CDATA[Your payment was successful. Thank you.]]></item>
-		<item name="cash.claim.user.pay.title"><![CDATA[Pay claim]]></item>
-		<item name="cash.claim.user.pay.transfer"><![CDATA[Bank Transfer]]></item>
-		<item name="cash.claim.user.pay.transfer.check"><![CDATA[I settle the outstanding payment by bank transfer]]></item>
-		<item name="cash.claim.user.pay.transfer.data"><![CDATA[Kontodaten]]></item>
-		<item name="cash.claim.user.pay.transfer.reference"><![CDATA[Purpose of Transfer]]></item>
-		<item name="cash.claim.user.status"><![CDATA[Status]]></item>
-		<item name="cash.claim.user.status.changed"><![CDATA[changed]]></item>
-		<item name="cash.claim.user.status.open"><![CDATA[open]]></item>
-		<item name="cash.claim.user.status.paid"><![CDATA[paid]]></item>
-		<item name="cash.claim.user.status.pending"><![CDATA[pending]]></item>
-		<item name="cash.claim.user.subject"><![CDATA[Title]]></item>
-		<item name="cash.claim.user.subject.error"><![CDATA[A maximum of 255 characters is allowed.]]></item>
-		<item name="cash.claim.user.success"><![CDATA[The claim was successfully changed.]]></item>
-		<item name="cash.claim.user.time"><![CDATA[Time]]></item>
-		<item name="cash.claim.user.transfer"><![CDATA[Transfer announced]]></item>
-		<item name="cash.claim.user.transfer.not"><![CDATA[Transfer not announced]]></item>
-		<item name="cash.claim.user.unpay.confirm"><![CDATA[Do you really want to mark this claim as “open”?]]></item>
-		<item name="cash.claim.user.unpay.mark"><![CDATA[Mark as “Open”]]></item>
-		<item name="cash.claim.user.username"><![CDATA[User]]></item>
-	</category>
-	
-	<category name="cash.credit">
-		<item name="cash.credit.add"><![CDATA[Create Credit]]></item>
-		<item name="cash.credit.add.amount"><![CDATA[Amount]]></item>
-		<item name="cash.credit.add.amount.error.invalid"><![CDATA[The amount must be greater than 0.00.]]></item>
-		<item name="cash.credit.add.category.warning"><![CDATA[No active category found.]]></item>
-		<item name="cash.credit.add.categoryID"><![CDATA[Category]]></item>
-		<item name="cash.credit.add.categoryID.error.invalid"><![CDATA[Invalid category.]]></item>
-		<item name="cash.credit.add.currency"><![CDATA[Currency]]></item>
-		<item name="cash.credit.add.currency.error.invalid"><![CDATA[Invalid currency.]]></item>
-		<item name="cash.credit.add.currency.warning"><![CDATA[No available currency was found.]]></item>
-		<item name="cash.credit.add.execution"><![CDATA[Execution]]></item>
-		<item name="cash.credit.add.execution.time"><![CDATA[Time]]></item>
-		<item name="cash.credit.add.execution.time.error.invalid"><![CDATA[Invalid time.]]></item>
-		<item name="cash.credit.add.execution.timezone"><![CDATA[Time Zone]]></item>
-		<item name="cash.credit.add.executions"><![CDATA[Frequency]]></item>
-		<item name="cash.credit.add.frequency"><![CDATA[Repetition]]></item>
-		<item name="cash.credit.add.frequency.once"><![CDATA[once]]></item>
-		<item name="cash.credit.add.frequency.week"><![CDATA[weekly]]></item>
-		<item name="cash.credit.add.frequency.twoweek"><![CDATA[every two weeks]]></item>
-		<item name="cash.credit.add.frequency.month"><![CDATA[monthly]]></item>
-		<item name="cash.credit.add.frequency.twomonth"><![CDATA[every two months]]></item>
-		<item name="cash.credit.add.frequency.threemonth"><![CDATA[every three months]]></item>
-		<item name="cash.credit.add.frequency.sixmonth"><![CDATA[half-yearly]]></item>
-		<item name="cash.credit.add.frequency.year"><![CDATA[yearly]]></item>
-		<item name="cash.credit.add.general"><![CDATA[General]]></item>
-		<item name="cash.credit.add.message"><![CDATA[Message]]></item>
-		<item name="cash.credit.add.subject"><![CDATA[Title]]></item>
-		<item name="cash.credit.add.usernames"><![CDATA[Usernames]]></item>
-		<item name="cash.credit.add.usernames.description"><![CDATA[The credit will be sent to the given users if all of the conditions below are fulfilled. Multiple users may be entered, but must be separated by comma.]]></item>
-		<item name="cash.credit.add.usernames.error.notFound"><![CDATA[The username {$errorData[username]} could not be found.]]></item>
-		<item name="cash.credit.add.users"><![CDATA[Members]]></item>
-		<item name="cash.credit.credit"><![CDATA[Credit]]></item>
-		<item name="cash.credit.credits"><![CDATA[Credits]]></item>
-		<item name="cash.credit.edit"><![CDATA[Edit Credit]]></item>
-		<item name="cash.credit.edit.warning"><![CDATA[Changes will not effect already sent user credits. Imprudent changes may have negative side effects and are not recommended.]]></item>
-		<item name="cash.credit.filter.categoryID"><![CDATA[all categories]]></item>
-		<item name="cash.credit.filter.currency"><![CDATA[all currencies]]></item>
-		<item name="cash.credit.filter.frequency"><![CDATA[all repetitions]]></item>
-		<item name="cash.credit.list"><![CDATA[Credits]]></item>
-		<item name="cash.credit.myCredits"><![CDATA[My Credits]]></item>
-		<item name="cash.credit.none"><![CDATA[No credits]]></item>
-		<item name="cash.credit.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}System{/if} sent the Community Cash credit <a href="{link application='cash' controller='Credit' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getTitle()}</a>:</p>]]></item>
-		<item name="cash.credit.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}System{/if} sent the Community Cash credit “{@$event->getUserNotificationObject()->getTitle()}” [URL:{link application='cash' controller='Credit' object=$event->getUserNotificationObject() isEmail=true}{/link}]:]]></item>
-		<item name="cash.credit.notification.message"><![CDATA[{@$author->getAnchorTag()} sent the Community Cash credit <a href="{link application='cash' controller='CashCredit' object=$credit}{/link}">{$credit->getTitle()}</a>.]]></item>
-		<item name="cash.credit.notification.title"><![CDATA[New credit]]></item>
-		<item name="cash.credit.open"><![CDATA[Open credit]]></item>
-		<item name="cash.credit.user"><![CDATA[User Credits]]></item>
-		<item name="cash.credit.user.amount"><![CDATA[Amount]]></item>
-		<item name="cash.credit.user.amount.error"><![CDATA[Invalid amount]]></item>
-		<item name="cash.credit.user.credit.confirm"><![CDATA[Do you really want to again give this credit?]]></item>
-		<item name="cash.credit.user.credit.mark"><![CDATA[Pay]]></item>
-		<item name="cash.credit.user.currency"><![CDATA[Currency]]></item>
-		<item name="cash.credit.user.data"><![CDATA[Data]]></item>
-		<item name="cash.credit.user.edit"><![CDATA[Edit Credit]]></item>
-		<item name="cash.credit.user.filter.currency"><![CDATA[all currencies]]></item>
-		<item name="cash.credit.user.filter.status"><![CDATA[all status]]></item>
-		<item name="cash.credit.user.status"><![CDATA[Status]]></item>
-		<item name="cash.credit.user.status.changed"><![CDATA[changed]]></item>
-		<item name="cash.credit.user.status.open"><![CDATA[reversed]]></item>
-		<item name="cash.credit.user.status.paid"><![CDATA[paid]]></item>
-		<item name="cash.credit.user.status.pending"><![CDATA[pending]]></item>
-		<item name="cash.credit.user.subject"><![CDATA[Title]]></item>
-		<item name="cash.credit.user.subject.error"><![CDATA[A maximum of 255 characters is allowed.]]></item>
-		<item name="cash.credit.user.success"><![CDATA[The credit was successfully changed.]]></item>
-		<item name="cash.credit.user.time"><![CDATA[Time]]></item>
-		<item name="cash.credit.user.uncredit.confirm"><![CDATA[Do you really want to reverse this credit?]]></item>
-		<item name="cash.credit.user.uncredit.mark"><![CDATA[Reverse]]></item>
-		<item name="cash.credit.user.username"><![CDATA[USer]]></item>
-	</category>
-	
-	<category name="cash.export">
-		<item name="cash.export.export"><![CDATA[Export Statements]]></item>
-		<item name="cash.export.period"><![CDATA[Period]]></item>
-		<item name="cash.export.contents"><![CDATA[Type]]></item>
-		<item name="cash.export.contents.error.empty"><![CDATA[At least one type must be selected.]]></item>
-		<item name="cash.export.openClaims"><![CDATA[Exclude open claims]]></item>
-		<item name="cash.export.currencies"><![CDATA[Currencies]]></item>
-		<item name="cash.export.currencies.error.empty"><![CDATA[At least one currency must be selected.]]></item>
-		<item name="cash.export.categories"><![CDATA[Categories]]></item>
-	</category>
-	
-	<category name="cash.index">
-		<item name="cash.index.copyright"><![CDATA[<a href="https://www.zaydowicz.de"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Cash: <strong>Community Cash{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, developed by <strong>zaydowicz.de</strong></a>]]></item>
-	</category>
-	
-	<category name="cash.payment">
-		<item name="cash.payment.method.transfer"><![CDATA[Bank Transfer]]></item>
-	</category>
-	
-	<category name="cash.posting">
-		<item name="cash.posting.add"><![CDATA[Add Posting]]></item>
-		<item name="cash.posting.add.amount"><![CDATA[Amount]]></item>
-		<item name="cash.posting.add.amount.error.invalid"><![CDATA[The amount must be greater than 0.00.]]></item>
-		<item name="cash.posting.add.category.warning"><![CDATA[There is no active category.]]></item>
-		<item name="cash.posting.add.categoryID"><![CDATA[Category]]></item>
-		<item name="cash.posting.add.categoryID.error.invalid"><![CDATA[The category is invalid.]]></item>
-		<item name="cash.posting.add.currency"><![CDATA[Currency]]></item>
-		<item name="cash.posting.add.currency.error.invalid"><![CDATA[The currency is invalid.]]></item>
-		<item name="cash.posting.add.date"><![CDATA[Date]]></item>
-		<item name="cash.posting.add.general"><![CDATA[General]]></item>
-		<item name="cash.posting.add.message"><![CDATA[Text]]></item>
-		<item name="cash.posting.add.subject"><![CDATA[Title]]></item>
-		<item name="cash.posting.add.time"><![CDATA[Time]]></item>
-		<item name="cash.posting.add.time.error.invalid"><![CDATA[Invalid time]]></item>
-		<item name="cash.posting.add.type"><![CDATA[Type]]></item>
-		<item name="cash.posting.add.type.expense"><![CDATA[Expense]]></item>
-		<item name="cash.posting.add.type.income"><![CDATA[Income]]></item>
-		<item name="cash.posting.balance"><![CDATA[Balance: {$balance}]]></item>
-		<item name="cash.posting.edit"><![CDATA[Edit Posting]]></item>
-		<item name="cash.posting.export"><![CDATA[Export Postings]]></item>
-		<item name="cash.posting.filter.categoryID"><![CDATA[all categories]]></item>
-		<item name="cash.posting.filter.currency"><![CDATA[all currencies]]></item>
-		<item name="cash.posting.filter.type"><![CDATA[all types]]></item>
-		<item name="cash.posting.list"><![CDATA[Postings]]></item>
-		<item name="cash.posting.open"><![CDATA[Open posting]]></item>
-		<item name="cash.posting.posting"><![CDATA[Posting]]></item>
-		<item name="cash.posting.postings"><![CDATA[Postings]]></item>
-	</category>
+    <category name="cash.acp">
+        <item name="cash.acp.transaction.log"><![CDATA[Transaction]]></item>
+        <item name="cash.acp.transaction.log.claim"><![CDATA[Claim]]></item>
+        <item name="cash.acp.transaction.log.list"><![CDATA[Transaction]]></item>
+        <item name="cash.acp.transaction.log.message"><![CDATA[Action]]></item>
+        <item name="cash.acp.transaction.log.paymentMethod"><![CDATA[Payment Method]]></item>
+        <item name="cash.acp.transaction.log.time"><![CDATA[Date]]></item>
+        <item name="cash.acp.transaction.log.transactionDetails"><![CDATA[Details]]></item>
+        <item name="cash.acp.transaction.log.transactionID"><![CDATA[Transaction ID]]></item>
+    </category>
+
+    <category name="wcf.acp.box">
+        <item name="wcf.acp.box.boxController.com.uz.cash.Balance"><![CDATA[Balance Community Cash]]></item>
+        <item name="wcf.acp.box.boxController.com.uz.cash.Claims"><![CDATA[Open claims Community Cash]]></item>
+    </category>
+
+    <category name="wcf.acp.group">
+        <item name="wcf.acp.group.option.category.user.cash"><![CDATA[Community Cash]]></item>
+        <item name="wcf.acp.group.option.category.admin.cash"><![CDATA[Community Cash]]></item>
+        <item name="wcf.acp.group.option.admin.cash.canManage"><![CDATA[Can manage Community Cash]]></item>
+        <item name="wcf.acp.group.option.user.cash.canManage"><![CDATA[Can manage Community Cash (frontend)]]></item>
+        <item name="wcf.acp.group.option.user.cash.canSeeBalance"><![CDATA[Can see Community Cash balance]]></item>
+        <item name="wcf.acp.group.option.user.cash.canSeeStatements"><![CDATA[Can see Community Cash details]]></item>
+        <item name="wcf.acp.group.option.user.cash.isPayer"><![CDATA[Must pay into Community Cash]]></item>
+    </category>
+
+    <category name="cash.acp.menu">
+        <item name="cash.acp.menu.link.cash"><![CDATA[Community Cash]]></item>
+        <item name="cash.acp.menu.link.cash.category.add"><![CDATA[Add Category]]></item>
+        <item name="cash.acp.menu.link.cash.category.list"><![CDATA[Categories]]></item>
+        <item name="cash.acp.menu.link.cash.transaction.list"><![CDATA[Transactions]]></item>
+    </category>
+
+    <category name="wcf.user.notification">
+        <item name="wcf.user.notification.com.uz.cash"><![CDATA[Community Cash]]></item>
+        <item name="wcf.user.notification.com.uz.cash.claim.notification.newClaim"><![CDATA[New Claim]]></item>
+        <item name="wcf.user.notification.com.uz.cash.credit.notification.newCredit"><![CDATA[New Credit]]></item>
+    </category>
+
+    <category name="wcf.acp.option">
+        <item name="wcf.acp.option.module_cash"><![CDATA[Community Cash]]></item>
+        <item name="wcf.acp.option.category.cash"><![CDATA[Community Cash]]></item>
+        <item name="wcf.acp.option.category.cash.general"><![CDATA[General]]></item>
+        <item name="wcf.acp.option.category.cash.payment"><![CDATA[Payments]]></item>
+        <item name="wcf.acp.option.cash_claim_user_deleted"><![CDATA[Delete open claims of deleted members]]></item>
+        <item name="wcf.acp.option.cash_claim_user_deleted.description"><![CDATA[Activates automatic deletion of open claims of members who were deleted after receipt of the claim.]]></item>
+        <item name="wcf.acp.option.cash_claim_user_inactive"><![CDATA[Delete open claims of inactive members]]></item>
+        <item name="wcf.acp.option.cash_claim_user_inactive.description"><![CDATA[Activates automatic deletion of open claims of members who are inactive the entered number of days after receipt of the claim.]]></item>
+        <item name="wcf.acp.option.cash_claim_user_inactive_days"><![CDATA[Duration of inactivity]]></item>
+        <item name="wcf.acp.option.cash_currencies"><![CDATA[Available Currencies]]></item>
+        <item name="wcf.acp.option.cash_currencies.description"><![CDATA[You may enter more than one currency; one per line. Use the international currency ISO abbreviation (3 characters).]]></item>
+        <item name="wcf.acp.option.cash_items_per_page"><![CDATA[Entries per Page]]></item>
+        <item name="wcf.acp.option.cash_transfer_account"><![CDATA[Account Number]]></item>
+        <item name="wcf.acp.option.cash_transfer_bank"><![CDATA[Bank Name]]></item>
+        <item name="wcf.acp.option.cash_transfer_bic"><![CDATA[BIC/SWFT]]></item>
+        <item name="wcf.acp.option.cash_transfer_code"><![CDATA[Bank Code]]></item>
+        <item name="wcf.acp.option.cash_transfer_iban"><![CDATA[IBAN]]></item>
+        <item name="wcf.acp.option.cash_transfer_owner"><![CDATA[Account Owner]]></item>
+        <item name="wcf.acp.option.cash_transfer_show_bank"><![CDATA[Sho account data]]></item>
+    </category>
+
+    <category name="wcf.acp.rebuildData">
+        <item name="wcf.acp.rebuildData.com.uz.cash.all"><![CDATA[Rebuild Community Cash]]></item>
+        <item name="wcf.acp.rebuildData.com.uz.cash.all.description"><![CDATA[Rebuilds balances of the users.]]></item>
+    </category>
+
+    <category name="cash.bank">
+        <item name="cash.bank.account"><![CDATA[Account Number]]></item>
+        <item name="cash.bank.bank"><![CDATA[Bank Name]]></item>
+        <item name="cash.bank.bic"><![CDATA[BIC/SWFT]]></item>
+        <item name="cash.bank.code"><![CDATA[Bank Code]]></item>
+        <item name="cash.bank.iban"><![CDATA[IBAN]]></item>
+        <item name="cash.bank.owner"><![CDATA[Account Owner]]></item>
+    </category>
+
+    <category name="cash.cash">
+        <item name="cash.cash.amount"><![CDATA[Amount]]></item>
+        <item name="cash.cash.balance.none"><![CDATA[No account movements]]></item>
+        <item name="cash.cash.box.cash"><![CDATA[Community Cash]]></item>
+        <item name="cash.cash.box.cash.balance"><![CDATA[Balance]]></item>
+        <item name="cash.cash.box.cash.claims"><![CDATA[Open Claims]]></item>
+        <item name="cash.cash.comment"><![CDATA[Comment]]></item>
+        <item name="cash.cash.category"><![CDATA[Category]]></item>
+        <item name="cash.cash.currency"><![CDATA[Currency]]></item>
+        <item name="cash.cash.date"><![CDATA[Date]]></item>
+        <item name="cash.cash.export"><![CDATA[Export]]></item>
+        <item name="cash.cash.filter.comment"><![CDATA[Comment]]></item>
+        <item name="cash.cash.filter.currency"><![CDATA[all currencies]]></item>
+        <item name="cash.cash.filter.type"><![CDATA[all types]]></item>
+        <item name="cash.cash.filter.username"><![CDATA[username]]></item>
+        <item name="cash.cash.hidden"><![CDATA[***]]></item>
+        <item name="cash.cash.overview"><![CDATA[Overview]]></item>
+        <item name="cash.cash.time"><![CDATA[Time]]></item>
+        <item name="cash.cash.type"><![CDATA[Type]]></item>
+        <item name="cash.cash.type.claim"><![CDATA[claim]]></item>
+        <item name="cash.cash.type.claimBalanced"><![CDATA[claim balanced with credit]]></item>
+        <item name="cash.cash.type.claimChanged"><![CDATA[claim changed]]></item>
+        <item name="cash.cash.type.claimDeleted"><![CDATA[claim deleted]]></item>
+        <item name="cash.cash.type.claimSent"><![CDATA[new claim]]></item>
+        <item name="cash.cash.type.claimPaid"><![CDATA[claim paid]]></item>
+        <item name="cash.cash.type.claimReversed"><![CDATA[claim sent]]></item>
+        <item name="cash.cash.type.claimRepaid"><![CDATA[claim re-paid]]></item>
+        <item name="cash.cash.type.credit"><![CDATA[Credit]]></item>
+        <item name="cash.cash.type.creditChanged"><![CDATA[credit changed]]></item>
+        <item name="cash.cash.type.creditPaid"><![CDATA[credit paid]]></item>
+        <item name="cash.cash.type.creditReversed"><![CDATA[credit reversed]]></item>
+        <item name="cash.cash.type.creditSent"><![CDATA[new credit]]></item>
+        <item name="cash.cash.type.posting"><![CDATA[Statement]]></item>
+        <item name="cash.cash.user.balance"><![CDATA[My Balance]]></item>
+        <item name="cash.cash.user.balance.none"><![CDATA[No account movements]]></item>
+        <item name="cash.cash.user.myAccount"><![CDATA[My Account]]></item>
+        <item name="cash.cash.username"><![CDATA[User]]></item>
+    </category>
+
+    <category name="cash.claim">
+        <item name="cash.claim.add"><![CDATA[Add Claim]]></item>
+        <item name="cash.claim.add.amount"><![CDATA[Amount]]></item>
+        <item name="cash.claim.add.amount.error.invalid"><![CDATA[The amount must be greater than 0.00.]]></item>
+        <item name="cash.claim.add.category.warning"><![CDATA[There is no active category.]]></item>
+        <item name="cash.claim.add.categoryID"><![CDATA[Category]]></item>
+        <item name="cash.claim.add.categoryID.error.invalid"><![CDATA[Invalid category.]]></item>
+        <item name="cash.claim.add.currency"><![CDATA[Currency]]></item>
+        <item name="cash.claim.add.currency.error.invalid"><![CDATA[Invalid currency.]]></item>
+        <item name="cash.claim.add.currency.warning"><![CDATA[There is no currency available.]]></item>
+        <item name="cash.claim.add.excludedPaymentMethods"><![CDATA[Excluded Payment Methods]]></item>
+        <item name="cash.claim.add.excludedPaymentMethods.description"><![CDATA[Select the payment methods which are not to be used for this claim.]]></item>
+        <item name="cash.claim.add.execution"><![CDATA[Execution]]></item>
+        <item name="cash.claim.add.execution.time"><![CDATA[Time]]></item>
+        <item name="cash.claim.add.execution.time.error.invalid"><![CDATA[Invalid time.]]></item>
+        <item name="cash.claim.add.execution.timezone"><![CDATA[Time Zone]]></item>
+        <item name="cash.claim.add.executions"><![CDATA[Frequency]]></item>
+        <item name="cash.claim.add.frequency"><![CDATA[Repetition]]></item>
+        <item name="cash.claim.add.frequency.once"><![CDATA[once]]></item>
+        <item name="cash.claim.add.frequency.week"><![CDATA[weekly]]></item>
+        <item name="cash.claim.add.frequency.twoweek"><![CDATA[every two weeks]]></item>
+        <item name="cash.claim.add.frequency.month"><![CDATA[monthly]]></item>
+        <item name="cash.claim.add.frequency.twomonth"><![CDATA[every two months]]></item>
+        <item name="cash.claim.add.frequency.threemonth"><![CDATA[every three months]]></item>
+        <item name="cash.claim.add.frequency.sixmonth"><![CDATA[half-yearly]]></item>
+        <item name="cash.claim.add.frequency.year"><![CDATA[yearly]]></item>
+        <item name="cash.claim.add.general"><![CDATA[General]]></item>
+        <item name="cash.claim.add.message"><![CDATA[Comment]]></item>
+        <item name="cash.claim.add.subject"><![CDATA[Title]]></item>
+        <item name="cash.claim.add.usernames"><![CDATA[Usernames]]></item>
+        <item name="cash.claim.add.usernames.description"><![CDATA[The claim will be made to the given users if all of the conditions below are fulfilled. Multiple users may be entered, but must be separated by comma.]]></item>
+        <item name="cash.claim.add.usernames.error.notFound"><![CDATA[The userame {$errorData[username]} could not be found.]]></item>
+        <item name="cash.claim.add.users"><![CDATA[Member]]></item>
+        <item name="cash.claim.claim"><![CDATA[Claim]]></item>
+        <item name="cash.claim.claims"><![CDATA[Claims]]></item>
+        <item name="cash.claim.condition"><![CDATA[Community Cash]]></item>
+        <item name="cash.claim.condition.hasClaims"><![CDATA[Has open claims]]></item>
+        <item name="cash.claim.condition.hasNotClaims"><![CDATA[Has no open claims]]></item>
+        <item name="cash.claim.condition.hasClaims.error.conflict"><![CDATA[You cannot simultaneously select “Has open claims” and “Has no open claims”.]]></item>
+        <item name="cash.claim.edit"><![CDATA[Edit Claim]]></item>
+        <item name="cash.claim.edit.warning"><![CDATA[Changes will not effect already sent user claims. Imprudent changes may have negative side effects and are not recommended.]]></item>
+        <item name="cash.claim.filter.categoryID"><![CDATA[all categories]]></item>
+        <item name="cash.claim.filter.currency"><![CDATA[all currencies]]></item>
+        <item name="cash.claim.filter.frequency"><![CDATA[all repetitions]]></item>
+        <item name="cash.claim.list"><![CDATA[Claims]]></item>
+        <item name="cash.claim.hasOpen"><![CDATA[You have open <a href="{link application='cash' controller='MyClaimList'}{/link}">claims</a>.]]></item>
+        <item name="cash.claim.myClaims"><![CDATA[My Claims]]></item>
+        <item name="cash.claim.none"><![CDATA[No claims]]></item>
+        <item name="cash.claim.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}System{/if} sent the new Community Cash claim <a href="{link application='cash' controller='Claim' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getTitle()}</a>:</p>]]></item>
+        <item name="cash.claim.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}System{/if} sent the new Community Cash claim „{@$event->getUserNotificationObject()->getTitle()}“ [URL:{link application='cash' controller='Claim' object=$event->getUserNotificationObject() isEmail=true}{/link}]:]]></item>
+        <item name="cash.claim.notification.message"><![CDATA[{@$author->getAnchorTag()} sent the new Community Cash claim <a href="{link application='cash' controller='CashClaim' object=$claim}{/link}">{$claim->getTitle()}</a>.]]></item>
+        <item name="cash.claim.notification.title"><![CDATA[New claim]]></item>
+        <item name="cash.claim.open"><![CDATA[Open claim]]></item>
+        <item name="cash.claim.user"><![CDATA[User claims]]></item>
+        <item name="cash.claim.user.amount"><![CDATA[Amount]]></item>
+        <item name="cash.claim.user.amount.error"><![CDATA[Invalid amount.]]></item>
+        <item name="cash.claim.user.balance"><![CDATA[Balance claim with credit]]></item>
+        <item name="cash.claim.user.balance.confirm"><![CDATA[Do you really want to balance this claim with your credit?]]></item>
+        <item name="cash.claim.user.currency"><![CDATA[Currency]]></item>
+        <item name="cash.claim.user.data"><![CDATA[Data]]></item>
+        <item name="cash.claim.user.delete"><![CDATA[Delete Claim]]></item>
+        <item name="cash.claim.user.edit"><![CDATA[Edit Claim]]></item>
+        <item name="cash.claim.user.filter.currency"><![CDATA[all currencies]]></item>
+        <item name="cash.claim.user.filter.status"><![CDATA[all status]]></item>
+        <item name="cash.claim.user.filter.transfer"><![CDATA[all transfer status]]></item>
+        <item name="cash.claim.user.pay"><![CDATA[Pay claim]]></item>
+        <item name="cash.claim.user.pay.confirm"><![CDATA[Do you really want to mark this claim as “Paid“?]]></item>
+        <item name="cash.claim.user.pay.mark"><![CDATA[Mark as “Paid”]]></item>
+        <item name="cash.claim.user.pay.method"><![CDATA[Payment Methods]]></item>
+        <item name="cash.claim.user.pay.method.none"><![CDATA[No payment method was found which supports the choosen currency. Please, contact the administrator.]]></item>
+        <item name="cash.claim.user.pay.method.payPal"><![CDATA[Pay with PayPal]]></item>
+        <item name="cash.claim.user.pay.returnMessage"><![CDATA[Your payment was successful. Thank you.]]></item>
+        <item name="cash.claim.user.pay.title"><![CDATA[Pay claim]]></item>
+        <item name="cash.claim.user.pay.transfer"><![CDATA[Bank Transfer]]></item>
+        <item name="cash.claim.user.pay.transfer.check"><![CDATA[I settle the outstanding payment by bank transfer]]></item>
+        <item name="cash.claim.user.pay.transfer.data"><![CDATA[Kontodaten]]></item>
+        <item name="cash.claim.user.pay.transfer.reference"><![CDATA[Purpose of Transfer]]></item>
+        <item name="cash.claim.user.status"><![CDATA[Status]]></item>
+        <item name="cash.claim.user.status.changed"><![CDATA[changed]]></item>
+        <item name="cash.claim.user.status.open"><![CDATA[open]]></item>
+        <item name="cash.claim.user.status.paid"><![CDATA[paid]]></item>
+        <item name="cash.claim.user.status.pending"><![CDATA[pending]]></item>
+        <item name="cash.claim.user.subject"><![CDATA[Title]]></item>
+        <item name="cash.claim.user.subject.error"><![CDATA[A maximum of 255 characters is allowed.]]></item>
+        <item name="cash.claim.user.success"><![CDATA[The claim was successfully changed.]]></item>
+        <item name="cash.claim.user.time"><![CDATA[Time]]></item>
+        <item name="cash.claim.user.transfer"><![CDATA[Transfer announced]]></item>
+        <item name="cash.claim.user.transfer.not"><![CDATA[Transfer not announced]]></item>
+        <item name="cash.claim.user.unpay.confirm"><![CDATA[Do you really want to mark this claim as “open”?]]></item>
+        <item name="cash.claim.user.unpay.mark"><![CDATA[Mark as “Open”]]></item>
+        <item name="cash.claim.user.username"><![CDATA[User]]></item>
+    </category>
+
+    <category name="cash.credit">
+        <item name="cash.credit.add"><![CDATA[Create Credit]]></item>
+        <item name="cash.credit.add.amount"><![CDATA[Amount]]></item>
+        <item name="cash.credit.add.amount.error.invalid"><![CDATA[The amount must be greater than 0.00.]]></item>
+        <item name="cash.credit.add.category.warning"><![CDATA[No active category found.]]></item>
+        <item name="cash.credit.add.categoryID"><![CDATA[Category]]></item>
+        <item name="cash.credit.add.categoryID.error.invalid"><![CDATA[Invalid category.]]></item>
+        <item name="cash.credit.add.currency"><![CDATA[Currency]]></item>
+        <item name="cash.credit.add.currency.error.invalid"><![CDATA[Invalid currency.]]></item>
+        <item name="cash.credit.add.currency.warning"><![CDATA[No available currency was found.]]></item>
+        <item name="cash.credit.add.execution"><![CDATA[Execution]]></item>
+        <item name="cash.credit.add.execution.time"><![CDATA[Time]]></item>
+        <item name="cash.credit.add.execution.time.error.invalid"><![CDATA[Invalid time.]]></item>
+        <item name="cash.credit.add.execution.timezone"><![CDATA[Time Zone]]></item>
+        <item name="cash.credit.add.executions"><![CDATA[Frequency]]></item>
+        <item name="cash.credit.add.frequency"><![CDATA[Repetition]]></item>
+        <item name="cash.credit.add.frequency.once"><![CDATA[once]]></item>
+        <item name="cash.credit.add.frequency.week"><![CDATA[weekly]]></item>
+        <item name="cash.credit.add.frequency.twoweek"><![CDATA[every two weeks]]></item>
+        <item name="cash.credit.add.frequency.month"><![CDATA[monthly]]></item>
+        <item name="cash.credit.add.frequency.twomonth"><![CDATA[every two months]]></item>
+        <item name="cash.credit.add.frequency.threemonth"><![CDATA[every three months]]></item>
+        <item name="cash.credit.add.frequency.sixmonth"><![CDATA[half-yearly]]></item>
+        <item name="cash.credit.add.frequency.year"><![CDATA[yearly]]></item>
+        <item name="cash.credit.add.general"><![CDATA[General]]></item>
+        <item name="cash.credit.add.message"><![CDATA[Message]]></item>
+        <item name="cash.credit.add.subject"><![CDATA[Title]]></item>
+        <item name="cash.credit.add.usernames"><![CDATA[Usernames]]></item>
+        <item name="cash.credit.add.usernames.description"><![CDATA[The credit will be sent to the given users if all of the conditions below are fulfilled. Multiple users may be entered, but must be separated by comma.]]></item>
+        <item name="cash.credit.add.usernames.error.notFound"><![CDATA[The username {$errorData[username]} could not be found.]]></item>
+        <item name="cash.credit.add.users"><![CDATA[Members]]></item>
+        <item name="cash.credit.credit"><![CDATA[Credit]]></item>
+        <item name="cash.credit.credits"><![CDATA[Credits]]></item>
+        <item name="cash.credit.edit"><![CDATA[Edit Credit]]></item>
+        <item name="cash.credit.edit.warning"><![CDATA[Changes will not effect already sent user credits. Imprudent changes may have negative side effects and are not recommended.]]></item>
+        <item name="cash.credit.filter.categoryID"><![CDATA[all categories]]></item>
+        <item name="cash.credit.filter.currency"><![CDATA[all currencies]]></item>
+        <item name="cash.credit.filter.frequency"><![CDATA[all repetitions]]></item>
+        <item name="cash.credit.list"><![CDATA[Credits]]></item>
+        <item name="cash.credit.myCredits"><![CDATA[My Credits]]></item>
+        <item name="cash.credit.none"><![CDATA[No credits]]></item>
+        <item name="cash.credit.notification.mail.html"><![CDATA[<p>{if $event->getAuthor()->userID}<a href="{link controller='User' object=$event->getAuthor() isHtmlEmail=true}{/link}">{$event->getAuthor()->username}</a>{else}System{/if} sent the Community Cash credit <a href="{link application='cash' controller='Credit' object=$event->getUserNotificationObject() isHtmlEmail=true}{/link}">{$event->getUserNotificationObject()->getTitle()}</a>:</p>]]></item>
+        <item name="cash.credit.notification.mail.plaintext"><![CDATA[{if $event->getAuthor()->userID}{@$event->getAuthor()->username} [URL:{link controller='User' object=$event->getAuthor() isEmail=true}{/link}]{else}System{/if} sent the Community Cash credit “{@$event->getUserNotificationObject()->getTitle()}” [URL:{link application='cash' controller='Credit' object=$event->getUserNotificationObject() isEmail=true}{/link}]:]]></item>
+        <item name="cash.credit.notification.message"><![CDATA[{@$author->getAnchorTag()} sent the Community Cash credit <a href="{link application='cash' controller='CashCredit' object=$credit}{/link}">{$credit->getTitle()}</a>.]]></item>
+        <item name="cash.credit.notification.title"><![CDATA[New credit]]></item>
+        <item name="cash.credit.open"><![CDATA[Open credit]]></item>
+        <item name="cash.credit.user"><![CDATA[User Credits]]></item>
+        <item name="cash.credit.user.amount"><![CDATA[Amount]]></item>
+        <item name="cash.credit.user.amount.error"><![CDATA[Invalid amount]]></item>
+        <item name="cash.credit.user.credit.confirm"><![CDATA[Do you really want to again give this credit?]]></item>
+        <item name="cash.credit.user.credit.mark"><![CDATA[Pay]]></item>
+        <item name="cash.credit.user.currency"><![CDATA[Currency]]></item>
+        <item name="cash.credit.user.data"><![CDATA[Data]]></item>
+        <item name="cash.credit.user.edit"><![CDATA[Edit Credit]]></item>
+        <item name="cash.credit.user.filter.currency"><![CDATA[all currencies]]></item>
+        <item name="cash.credit.user.filter.status"><![CDATA[all status]]></item>
+        <item name="cash.credit.user.status"><![CDATA[Status]]></item>
+        <item name="cash.credit.user.status.changed"><![CDATA[changed]]></item>
+        <item name="cash.credit.user.status.open"><![CDATA[reversed]]></item>
+        <item name="cash.credit.user.status.paid"><![CDATA[paid]]></item>
+        <item name="cash.credit.user.status.pending"><![CDATA[pending]]></item>
+        <item name="cash.credit.user.subject"><![CDATA[Title]]></item>
+        <item name="cash.credit.user.subject.error"><![CDATA[A maximum of 255 characters is allowed.]]></item>
+        <item name="cash.credit.user.success"><![CDATA[The credit was successfully changed.]]></item>
+        <item name="cash.credit.user.time"><![CDATA[Time]]></item>
+        <item name="cash.credit.user.uncredit.confirm"><![CDATA[Do you really want to reverse this credit?]]></item>
+        <item name="cash.credit.user.uncredit.mark"><![CDATA[Reverse]]></item>
+        <item name="cash.credit.user.username"><![CDATA[USer]]></item>
+    </category>
+
+    <category name="cash.export">
+        <item name="cash.export.export"><![CDATA[Export Statements]]></item>
+        <item name="cash.export.period"><![CDATA[Period]]></item>
+        <item name="cash.export.contents"><![CDATA[Type]]></item>
+        <item name="cash.export.contents.error.empty"><![CDATA[At least one type must be selected.]]></item>
+        <item name="cash.export.openClaims"><![CDATA[Exclude open claims]]></item>
+        <item name="cash.export.currencies"><![CDATA[Currencies]]></item>
+        <item name="cash.export.currencies.error.empty"><![CDATA[At least one currency must be selected.]]></item>
+        <item name="cash.export.categories"><![CDATA[Categories]]></item>
+    </category>
+
+    <category name="cash.index">
+        <item name="cash.index.copyright"><![CDATA[<a href="https://www.zaydowicz.de"{if EXTERNAL_LINK_TARGET_BLANK} target="_blank"{/if}>Cash: <strong>Community Cash{if SHOW_VERSION_NUMBER} {@PACKAGE_VERSION}{/if}</strong>, developed by <strong>zaydowicz.de</strong></a>]]></item>
+    </category>
+
+    <category name="cash.payment">
+        <item name="cash.payment.method.transfer"><![CDATA[Bank Transfer]]></item>
+    </category>
+
+    <category name="cash.posting">
+        <item name="cash.posting.add"><![CDATA[Add Posting]]></item>
+        <item name="cash.posting.add.amount"><![CDATA[Amount]]></item>
+        <item name="cash.posting.add.amount.error.invalid"><![CDATA[The amount must be greater than 0.00.]]></item>
+        <item name="cash.posting.add.category.warning"><![CDATA[There is no active category.]]></item>
+        <item name="cash.posting.add.categoryID"><![CDATA[Category]]></item>
+        <item name="cash.posting.add.categoryID.error.invalid"><![CDATA[The category is invalid.]]></item>
+        <item name="cash.posting.add.currency"><![CDATA[Currency]]></item>
+        <item name="cash.posting.add.currency.error.invalid"><![CDATA[The currency is invalid.]]></item>
+        <item name="cash.posting.add.date"><![CDATA[Date]]></item>
+        <item name="cash.posting.add.general"><![CDATA[General]]></item>
+        <item name="cash.posting.add.message"><![CDATA[Text]]></item>
+        <item name="cash.posting.add.subject"><![CDATA[Title]]></item>
+        <item name="cash.posting.add.time"><![CDATA[Time]]></item>
+        <item name="cash.posting.add.time.error.invalid"><![CDATA[Invalid time]]></item>
+        <item name="cash.posting.add.type"><![CDATA[Type]]></item>
+        <item name="cash.posting.add.type.expense"><![CDATA[Expense]]></item>
+        <item name="cash.posting.add.type.income"><![CDATA[Income]]></item>
+        <item name="cash.posting.balance"><![CDATA[Balance: {$balance}]]></item>
+        <item name="cash.posting.edit"><![CDATA[Edit Posting]]></item>
+        <item name="cash.posting.export"><![CDATA[Export Postings]]></item>
+        <item name="cash.posting.filter.categoryID"><![CDATA[all categories]]></item>
+        <item name="cash.posting.filter.currency"><![CDATA[all currencies]]></item>
+        <item name="cash.posting.filter.type"><![CDATA[all types]]></item>
+        <item name="cash.posting.list"><![CDATA[Postings]]></item>
+        <item name="cash.posting.open"><![CDATA[Open posting]]></item>
+        <item name="cash.posting.posting"><![CDATA[Posting]]></item>
+        <item name="cash.posting.postings"><![CDATA[Postings]]></item>
+    </category>
 </import>
 
 <delete>
-	<item name="cash.cash.cashs"/>
-	<item name="cash.posting.delete.sure"/>
-	<item name="cash.claim.delete.sure"/>
-	<item name="cash.claim.user.delete.sure"/>
-	<item name="cash.credit.delete.sure"/>
+    <item name="cash.cash.cashs"/>
+    <item name="cash.posting.delete.sure"/>
+    <item name="cash.claim.delete.sure"/>
+    <item name="cash.claim.user.delete.sure"/>
+    <item name="cash.credit.delete.sure"/>
 </delete>
 </language>

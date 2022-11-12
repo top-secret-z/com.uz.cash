@@ -1,27 +1,27 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <data xmlns="http://www.woltlab.com" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.woltlab.com http://www.woltlab.com/XSD/2019/pagemnu.xsd">
-	<import>
-		<acpmenuitem name="cash.acp.menu.link.cash">
-			<parent>wcf.acp.menu.link.application</parent>
-		</acpmenuitem>
-		
-		<acpmenuitem name="cash.acp.menu.link.cash.category.list">
-			<controller>cash\acp\page\CashCategoryListPage</controller>
-			<parent>cash.acp.menu.link.cash</parent>
-			<permissions>admin.cash.canManage</permissions>
-		</acpmenuitem>
-		
-		<acpmenuitem name="cash.acp.menu.link.cash.category.add">
-			<controller>cash\acp\form\CashCategoryAddForm</controller>
-			<parent>cash.acp.menu.link.cash.category.list</parent>
-			<permissions>admin.cash.canManage</permissions>
-			<icon>fa-plus</icon>
-		</acpmenuitem>
-		
-		<acpmenuitem name="cash.acp.menu.link.cash.transaction.list">
-			<controller>cash\acp\page\CashTransactionLogListPage</controller>
-			<parent>cash.acp.menu.link.cash</parent>
-			<permissions>admin.cash.canManage</permissions>
-		</acpmenuitem>
-	</import>
+    <import>
+        <acpmenuitem name="cash.acp.menu.link.cash">
+            <parent>wcf.acp.menu.link.application</parent>
+        </acpmenuitem>
+
+        <acpmenuitem name="cash.acp.menu.link.cash.category.list">
+            <controller>cash\acp\page\CashCategoryListPage</controller>
+            <parent>cash.acp.menu.link.cash</parent>
+            <permissions>admin.cash.canManage</permissions>
+        </acpmenuitem>
+
+        <acpmenuitem name="cash.acp.menu.link.cash.category.add">
+            <controller>cash\acp\form\CashCategoryAddForm</controller>
+            <parent>cash.acp.menu.link.cash.category.list</parent>
+            <permissions>admin.cash.canManage</permissions>
+            <icon>fa-plus</icon>
+        </acpmenuitem>
+
+        <acpmenuitem name="cash.acp.menu.link.cash.transaction.list">
+            <controller>cash\acp\page\CashTransactionLogListPage</controller>
+            <parent>cash.acp.menu.link.cash</parent>
+            <permissions>admin.cash.canManage</permissions>
+        </acpmenuitem>
+    </import>
 </data>
